@@ -66,7 +66,7 @@ const Navbar = () => {
                       <path d="M4.35156 5.27344C4.5625 5.48438 4.91406 5.48438 5.125 5.27344L8.3125 2.08594C8.54688 1.85156 8.54688 1.5 8.3125 1.28906L7.79688 0.75C7.5625 0.539062 7.21094 0.539062 7 0.75L4.72656 3.02344L2.47656 0.75C2.26562 0.539062 1.91406 0.539062 1.67969 0.75L1.16406 1.28906C0.929688 1.5 0.929688 1.85156 1.16406 2.08594L4.35156 5.27344Z"></path>
                     </svg>
                   </span>
-                  <span className="lg:absolute lg:top-full lg:bg-white lg:w-[240px] relative shadow-menu lg:text-blue-text rounded-xs hidden block lg:group-hover:block">
+                  <span className="lg:absolute lg:top-full lg:bg-white lg:w-[240px] relative shadow-menu lg:text-blue-text rounded-xs hidden  lg:group-hover:block">
                     <ul className="flex flex-col relative lg:-mt-[1px] max-lg:mt-6">
                       <li className="text-blue-950 lg:border-t border-blue-light whitespace-nowrap first:border-none">
                         <a
@@ -193,7 +193,7 @@ const Navbar = () => {
                       )}
                     </button>
                     {isOpen && (
-                      <ul className="absolute overflow-visible bottom-0 translate-y-full bg-white rounded text-black w-max p-3 divide-y-2 rounded-xs shadow-menu">
+                      <ul className="absolute overflow-visible bottom-0 translate-y-full bg-white text-black w-max p-3 divide-y-2 rounded-xl shadow-menu">
                         <li className="text-blue-950 py-1 hover:text-blue-main hover:transition-colors duration-200 text-blue-text">
                           <button className="flex space-x-1">
                             <span className="uppercase">en</span>
@@ -227,7 +227,7 @@ const Navbar = () => {
                   </div>
 
                   <div className="lg:hidden block w-full">
-                    <div className="w-full rounded-[130px] border px-[14px] py-[8px] text-res-body-p1 border-blue-main transition-all duration-75 rounded-[130px]">
+                    <div className="w-full border px-[14px] py-[8px] text-res-body-p1 border-blue-main transition-all duration-75 rounded-[130px]">
                       <button className="flex justify-center items-center space-x-[8px] w-full">
                         <div className="flex-1 flex space-x-2 items-center">
                           <svg

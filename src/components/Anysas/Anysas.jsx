@@ -9,7 +9,7 @@ const Anysas = () => {
                 <h6 className="!text- mb-[24px] leading-[15px] text-2xl lg:text-head-6 text-res-head-6 text-blue-500 uppercase text-blue-main font-Montserrat">
                   our solutions
                 </h6>
-                <h1 className="md:whitespace-pre-wrap mb-[24px] !text-transparent bg-clip-text bg-gradient-to-r !from-[#1F80F0] via-[#1F80F0] !to-[#1F80F0] md:!text-[80px] !text-[50px] lg:text-head-1 font-Montserrat text-res-head-1 text-white">
+                <h1 className="md:whitespace-pre-wrap mb-[24px] lg:!text-transparent bg-clip-text bg-gradient-to-r !from-[#1F80F0] via-[#1F80F0] !to-[#1F80F0] md:!text-[80px] !text-[50px] lg:text-head-1 font-Montserrat text-res-head-1 text-white">
                   Robust card issuance
                   <br /> and management
                 </h1>
