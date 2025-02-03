@@ -1,10 +1,10 @@
 const Footer = () => {
     return (
-        <footer className="  mt-20">
+        <footer className=" mt-20">
             <div className="bg-[#002045]">
                 <div className="flex max-w-[1200px] mx-auto items-center justify-between py-11">
                     
-                    <a href="https://anytxn.com/en">
+                    <a href="#">
                         <picture style={{ display: 'flex', alignItems: 'stretch', backgroundSize: 'cover' }}>
                             <source 
                                 srcSet="https://cdn.sanity.io/images/6jywt20u/production/ed83f5f1e94efb47572d503f53456dcff902b81c-200x32.svg?w=200&fm=webp" 
@@ -34,19 +34,19 @@ const Footer = () => {
                         <ul className="flex items-center">
                             <li>
                                 <a className="px-6 py-4 text-res-body-p1 transition-colors duration-300 last:pr-0 hover:text-blue-main lg:text-body-p1" 
-                                   href="https://anytxn.com/en/solutions/anycaas">
+                                   href="#">
                                     AnyCaaS
                                 </a>
                             </li>
                             <li>
                                 <a className="px-6 py-4 text-res-body-p1 transition-colors duration-300 last:pr-0 hover:text-blue-main lg:text-body-p1" 
-                                   href="https://anytxn.com/en/solutions/anybaas">
+                                   href="#">
                                     AnyBaaS
                                 </a>
                             </li>
                             <li>
                                 <a className="px-6 py-4 text-res-body-p1 transition-colors duration-300 last:pr-0 hover:text-blue-main lg:text-body-p1" 
-                                   href="https://anytxn.com/en/solutions/anypaas">
+                                   href="#">
                                     AnyPaaS
                                 </a>
                             </li>
@@ -54,7 +54,7 @@ const Footer = () => {
                     </div>
 
                     <div className="flex gap-6 lg:hidden lg:gap-10">
-                        <a href="https://www.linkedin.com/company/anytxn" 
+                        <a href="#" 
                            className="flex items-center text-res-body-p1-semibold text-blue-main transition-opacity duration-300 hover:opacity-70 lg:text-body-p1-semibold">
                             <picture style={{ display: 'flex', alignItems: 'stretch', backgroundSize: 'cover' }} className="shrink-0 object-contain">
                                 <source
@@ -71,7 +71,7 @@ const Footer = () => {
                             </picture>
                         </a>
 
-                        <a href="tel:+6590021890" 
+                        <a href="#" 
                            className="flex items-center text-res-body-p1-semibold text-blue-main transition-opacity duration-300 hover:opacity-70 lg:text-body-p1-semibold">
                             <picture style={{ display: 'flex', alignItems: 'stretch', backgroundSize: 'cover' }} className="shrink-0 object-contain">
                                 <source
@@ -88,7 +88,7 @@ const Footer = () => {
                             </picture>
                         </a>
 
-                        <a href="mailto:enquiry@anytxn.com" 
+                        <a href="#" 
                            className="flex items-center text-res-body-p1-semibold text-blue-main transition-opacity duration-300 hover:opacity-70 lg:text-body-p1-semibold">
                             <picture style={{ display: 'flex', alignItems: 'stretch', backgroundSize: 'cover' }} className="shrink-0 object-contain">
                                 <source
@@ -118,7 +118,7 @@ const Footer = () => {
                     <div className="flex items-center gap-[14px] max-lg:mt-4">
                         <div>
                             <a className="transition-colors duration-300 hover:text-blue-highlight" 
-                               href="https://anytxn.com/en/privacy-policy">
+                               href="#">
                                 Privacy Policy
                             </a>
                         </div>
